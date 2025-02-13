@@ -53,7 +53,7 @@ header {
     width: 300px;
     margin: 0 auto;
     overflow: hidden;
-    margin-bottom: -50px;
+    margin-bottom: 20px;
     margin-top: -50px;
 }
 
@@ -133,4 +133,97 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Media Queries para Responsividade */
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("./img/fundo.png");
+    }
+
+    #carta img {
+        width: 90vw;
+        max-width: 400px;
+    }
+
+    #conteudo {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    header h2{
+        font-size: 25px;
+    }
+
+    .foto-casal {
+        width: 200px;
+        margin-top: 10px;
+    }
+    .nome-casal h1{
+        font-size: 25px;
+    }
+
+    .local {
+        width: 100%;
+    }
+
+    .presentes {
+        width: 100%;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    .data p{
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #carta img {
+        width: 85vw;
+        max-width: 300px;
+    }
+
+    .foto-casal {
+        width: 150px;
+    }
+
+    .data {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #botao-presente {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    #conteudo-presente img {
+        width: 150px;
+    }
 }
