@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerimonia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="carta">
+        <img src="./img/cartafechada.png" alt="Convite Fechado" id="imagem-carta" onmouseover="this.src='./img/cartaaberta.png'"
+            onmouseout="this.src='./img/cartafechada.png'">
+    </div>
+
+    <div id="conteudo" style="display: none;">
+        <header>
+            <h2>Bodas de Prata</h2>
+            <div class="foto-casal">
+                <img src="./img/7fe62b37-c631-4d76-9a1c-37b71dfbe09a.png" alt="anel">
+            </div>
+
+            <div class="nome-casal">
+                <h1>Carla & Alexandre</h1>
+            </div>
+            
+        </header>
+
+        <section class="mensagem">
+            <h2>"A alegria do nosso amor nos motiva a dividir esse momento especial com vocês."</h2>
+            
+        </section>
+
+        <section class="data">
+            <p>12 de Abril de 2025</p>
+        </section>
+
+        <section class="info-casamento">
+            <div class="local">
+                <h2>Cerimônia e Recepção</h2>
+                <p>Pousada Villa  Erva Doce - Palmelo, GO</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34557.507156349726!2d-48.424241201172855!3d-17.35411560441899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a75fd7f88d808f%3A0x8b9e729312779467!2sVilla%20Erva%20Docce!5e0!3m2!1spt-BR!2sbr!4v1739401871005!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="presentes">
+                <button id="botao-presente">Presente</button>
+                <div id="conteudo-presente" style="display: none;">
+                    <p>Nosso maior presente é a sua presença, mas se quiser nos presentear,
+                        faça sua doação para a caridade através desse QRcode</p>
+                    <img src="./img/qrcode.jpeg" alt="qrcode">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
