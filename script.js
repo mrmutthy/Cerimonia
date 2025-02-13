@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const carta = document.getElementById('carta');
 const conteudo = document.getElementById('conteudo');
 const imagemCarta = document.getElementById('imagem-carta');
