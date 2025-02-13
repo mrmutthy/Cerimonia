@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 const carta = document.getElementById('carta');
 const conteudo = document.getElementById('conteudo');
 const imagemCarta = document.getElementById('imagem-carta');
@@ -25,3 +24,5 @@ const conteudoPresente = document.getElementById('conteudo-presente');
 botaoPresente.addEventListener('click', () => {
     conteudoPresente.style.display = conteudoPresente.style.display === 'none' ? 'block' : 'none';
 });
+
+//import { SpeedInsights } from "@vercel/speed-insights/next"
